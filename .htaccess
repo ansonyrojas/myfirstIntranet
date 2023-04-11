@@ -1,0 +1,11 @@
+RewriteEngine on
+
+   RewriteRule ^usuarios usuarios/controller.php
+   RewriteRule ^login/ login/controller.php
+   RewriteRule ^sesion/ login/controller.php
+   RewriteRule ^salida/ login/logout.php
+   RewriteRule ^alumnos/ login/controller.php
+   RewriteRule ^home/ login/controller.php
+
+
+
